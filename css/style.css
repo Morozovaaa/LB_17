@@ -1,0 +1,340 @@
+@font-face{
+	font-family: "Linerama";
+	font-style:normal;
+}
+
+body{
+    width:100%;
+    font-family: "Linerama";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: #000;
+    background-color:#F33C3E;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.Group__1{
+  position: absolute;
+  left: 129px;
+  top: 45px;
+}
+.pic__1{
+  position: absolute;
+  left: 172px;
+  top: 166px;
+}
+.Vector__1{
+  position: absolute;
+  top: 8px;
+  left:95px;
+}
+.Vector__2{
+  position: absolute;
+  left: 1275px;
+  top: 240px;
+}
+.container{
+  position: relative;
+}
+.container h1{
+  position: absolute;
+  font-size:100px;
+  top:295px;
+  left:752px;
+  font-weight: bold;
+  line-height: 115px;
+}
+.container h1:nth-child(1){
+  color:transparent;
+  -webkit-text-stroke:1px #FFA3A2;
+}
+.container h1:nth-child(2){
+  color: #FFA3A2;
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate{
+  0%,100%{
+     clip-path: polygon(0% 57%, 7% 63%,16% 68%,24% 69%,36% 70%,
+     47% 68%, 56% 62%, 63% 55%,71% 49%,79% 43%,87% 40%,95%
+     39%,100% 39%,100% 100%,0% 100%);
+  }
+  50%{
+    clip-path: polygon(0% 57%,7% 53%,15% 48%,26% 44%,35% 48%,
+      43% 54%,50% 59%,60% 64%,70% 66%,81% 65%,90% 62%,95% 58%,
+      100% 58%,100% 100%,0% 100%);
+  }
+}
+.pic__2{
+  position: absolute;
+  left: 790px;
+  top: 709px;
+}
+.Group__2{
+  position: absolute;
+  left: 10px;
+  top: 1011px;
+}
+.text__1{
+  position: absolute;
+  left: 160px;
+  top: 836px;
+  width: 517px;
+  height: 402px;
+  line-height: 45px;
+  transition: all .5s;
+  animation: animat 7s infinite;
+}
+/*
+@keyframes animat{
+    0%{
+        transform: translateY(0);
+        margin: 0;
+    }
+      3.5%{
+        color:#020101;
+      }
+      10%{
+        color:#090606;
+      }
+      16.5%{
+        color:#150D0D;
+      }
+      20%{
+        color:#261818;
+      }
+      22.5%{
+        color:#3B2626;
+      }
+      26%{
+        color:#553636;
+      }
+      30.5%{
+        color:#714848;
+      }
+      38.5%{
+        color:#AA6D6C;
+      }
+      45%{
+        color:#C47D7C;
+      }
+      51.5%{
+        color:#D98B8A;
+      }
+      58%{
+        color:#EA9695;
+      }
+      64.5%{
+        color:#F69D9C;
+      }
+      71%{
+        color:#FDA2A1;
+      }
+      76.5%{
+        color:#FFA3A2;
+      }
+      81%{
+        color:#714848;
+      }
+      85%{
+        color:#553636;
+      }
+      88%{
+        color:#3B2626;
+      }
+      92%{ 
+        color:#261818;
+      }
+      95%{
+        color:#261818;
+      }
+      97%{
+        color:#150D0D;
+      }
+      99%{
+        color:#090606;
+      }
+      100%{
+        color:#000;
+      }
+}
+*/
+.radial{
+  position: absolute;
+  width: 795px;
+  height: 810px;
+  left: 272px;
+  top: 1845px;
+  z-index: 1;
+}
+.pic__3{
+  position: absolute;
+  left: 125px;
+  top: 1438px;
+  z-index: 2;
+}
+.Group__3{
+  position: absolute;
+  left: 685.99px;
+  top: 1488px;
+  z-index: 2;
+}
+.Rectangle{
+  position: absolute;
+  left: 971px;
+  top: 1772px;
+  z-index: 3;
+}
+.text__2{
+  position: absolute;
+  width: 517px;
+  height: 377px;
+  left: 1008px;
+  top: 1822px;
+  font-size: 35px;
+  line-height: 45px;
+  z-index: 4;
+  transition: all .5s;
+  animation: animat 7s infinite;
+}
+.Vector__3{
+  position: absolute;
+  top:1520px;
+  left:720px;
+  z-index: 2;
+}
+@keyframes animat{
+    0%{
+        transform: translateY(0);
+        margin: 0;
+    }
+    14.3%{
+      color:#FF75C3;
+    }
+    28.5%{
+      color:#FFA647;
+    }
+    42.8%{
+      color:#FFE83F
+    }
+    57.1%{
+      color:#9FFF5B;
+    }
+    71.4%{
+      color: #70E2FF;
+    }
+    85.7%{
+      color:#CD93FF;
+    }
+    100%{
+      color: #000;
+    }
+
+
+}
+.Group__4{
+  position: absolute;
+  top:2638px;
+  left:55px;
+}
+.pic__4{
+  position: absolute;;
+  left: 228px;
+  top: 2857px;
+}
+.text__3{
+  position: absolute;
+  width: 480px;
+  height: 541px;
+  left: 1050px;
+  top: 2900px;
+  line-height: 45px;
+}
+.text__3 span{
+  color:#02CC5C;
+}
+.Group__5{
+  position: absolute;
+  left: 112px;
+  top: 3801px;
+}
+.text__4{
+  position: absolute;
+  width: 744px;
+  height: 225px;
+  left: 139px;
+  top: 3807px;
+  line-height: 45px;
+  transition: all .5s;
+  animation: animat 7s infinite;
+}
+.pic__5{
+  position: absolute;
+  left: 218px;
+  top: 4150px;
+}
+.pic__6{
+  position: absolute;
+  left: 1056px;
+  top: 4134px;
+}
+.pic__7{
+  position: absolute;
+  left: 1087px;
+  top: 4848px;
+}
+.pic__8{
+  position: absolute;
+  left: 222px;
+  top: 5083px;
+}
+.Vector__4{
+  position: absolute;
+  left:860px;
+  top:5005px;
+}
+table {
+font-size: 25px;
+border-collapse: collapse;
+text-align: center;
+}
+th, td:first-child {
+background: #FFA3A2;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 1px 1px 1px 1px;
+border-color: #ffff;
+}
+td {
+background: #FFA3A2;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+.tablle{
+  position: absolute;
+  top:6100px;
+  left:255px;
+  text-align: center;
+}
+.link{
+  position:absolute;
+  top: 150px;
+  left:45%;
+}
+a{
+text-decoration: none;
+font-size: 30px;
+font-weight: bold;
+color: #FFEF28;
+}
+a:hover{
+  color:  #FFA3A2;
+  text-decoration: overline;
+}
